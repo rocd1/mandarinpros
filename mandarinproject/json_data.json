@@ -1,0 +1,354 @@
+{
+    "lessons": [
+        {
+            "category": "Basics",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "你好",
+                "pinyin": "nǐ hǎo",
+                "translation": "Hello"
+            },
+            {
+                "id": 2,
+                "word": "谢谢",
+                "pinyin": "xiè xie",
+                "translation": "Thank you"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'Hello' in Mandarin?",
+                "options": ["你好","谢谢"],
+                "answer": "你好"
+            },
+            {
+                "id": 2,
+                "question": "What is the translation of '谢谢'?",
+                "options": ["Goodbye","Thank you"],
+                "answer": "Thank you"
+            }
+            ]
+        },
+        {
+            "category": "Advanced",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "对不起",
+                "pinyin": "duì bu qǐ",
+                "translation": "Sorry"
+            },
+            {
+                "id": 2,
+                "word": "请问",
+                "pinyin": "qǐng wèn",
+                "translation": "Excuse me"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'Sorry' in Mandarin?",
+                "options": ["对不起","请问"],
+                "answer": "对不起"
+            },
+            {
+                "id": 2,
+                "question": "What is the pinyin for '请问'?",
+                "options": ["qǐng wèn","duì bu qǐ"],
+                "answer": "qǐng wèn"
+            }
+            ]
+        },
+        {
+            "category": "Numbers",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "一",
+                "pinyin": "yī",
+                "translation": "One"
+            },
+            {
+                "id": 2,
+                "word": "二",
+                "pinyin": "èr",
+                "translation": "Two"
+            },
+            {
+                "id": 3,
+                "word": "三",
+                "pinyin": "sān",
+                "translation": "Three"
+            },
+            {
+                "id": 4,
+                "word": "四",
+                "pinyin": "sì",
+                "translation": "Four"
+            },
+            {
+                "id": 5,
+                "word": "五",
+                "pinyin": "wǔ",
+                "translation": "Five"
+            },
+            {
+                "id": 6,
+                "word": "六",
+                "pinyin": "liù",
+                "translation": "Six"
+            },
+            {
+                "id": 7,
+                "word": "七",
+                "pinyin": "qī",
+                "translation": "Seven"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'Three' in Mandarin?",
+                "options": ["三","五"],
+                "answer": "三"
+            },
+            {
+                "id": 2,
+                "question": "What is the translation of '六'?",
+                "options": ["Four","Six"],
+                "answer": "Four"
+            },
+            {
+                "id": 3,
+                "question": "What is the pinyin for '五'?",
+                "options": ["sān","wǔ"],
+                "answer": "wǔ"
+            }
+            ]
+        },
+        {
+            "category": "Days",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "星期一",
+                "pinyin": "xīng qī yī",
+                "translation": "Monday"
+            },
+            {
+                "id": 2,
+                "word": "星期二",
+                "pinyin": "xīng qī èr",
+                "translation": "Tuesday"
+            },
+            {
+                "id": 3,
+                "word": "星期三",
+                "pinyin": "xīng qī sān",
+                "translation": "Wednesday"
+            },
+            {
+                "id": 4,
+                "word": "星期四",
+                "pinyin": "xīng qī sì",
+                "translation": "Thursday"
+            },
+            {
+                "id": 5,
+                "word": "星期五",
+                "pinyin": "xīng qī wǔ",
+                "translation": "Friday"
+            },
+            {
+                "id": 6,
+                "word": "星期六",
+                "pinyin": "xīng qī liù",
+                "translation": "Saturday"
+            },
+            {
+                "id": 7,
+                "word": "星期天",
+                "pinyin": "xīng qī tiān",
+                "translation": "Sunday"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'Monday' in Mandarin?",
+                "options": ["星期一","星期天"],
+                "answer": "星期一"
+            },
+            {
+                "id": 2,
+                "question": "What is the translation of '星期五'?",
+                "options": ["Friday","Wednesday"],
+                "answer": "Friday"
+
+            },
+            {
+                "id": 3,
+                "question": "What is the pinyin for '星期天'?",
+                "options": ["xīng qī tiā","xīng qī yī"],
+                "answer": "xīng qī tiān"
+            }
+            ]
+        },
+        {
+            "category": "Months",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "一月",
+                "pinyin": "yī yuè",
+                "translation": "January"
+            },
+            {
+                "id": 2,
+                "word": "二月",
+                "pinyin": "èr yuè",
+                "translation": "February"
+            },
+            {
+                "id": 3,
+                "word": "三月",
+                "pinyin": "sān yuè",
+                "translation": "March"
+            },
+            {
+                "id": 4,
+                "word": "四月",
+                "pinyin": "sì yuè",
+                "translation": "April"
+            },
+            {
+                "id": 5,
+                "word": "五月",
+                "pinyin": "wǔ yuè",
+                "translation": "May"
+            },
+            {
+                "id": 6,
+                "word": "六月",
+                "pinyin": "liù yuè",
+                "translation": "June"
+            },
+            {
+                "id": 7,
+                "word": "七月",
+                "pinyin": "qī yuè",
+                "translation": "July"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'January' in Mandarin?",
+                "options": ["一月","七月"],
+                "answer": "一月"
+            },
+            {
+                "id": 2,
+                "question": "What is the translation of '五月'?",
+                "options": ["May","June"],
+                "answer": "May"
+            },
+            {
+                "id": 3,
+                "question": "What is the pinyin for '六月'?",
+                "options": ["liù yuè","wǔ yuè"],
+                "answer": "liù yuè"
+            },
+            {
+                "id": 4,
+                "question": "How do you say 'April' in Mandarin?",
+                "options": ["四月","三月"],
+                "answer": "四月"
+            }
+            ]
+        },
+        {
+            "category": "Colors",
+            "flashcards": [
+            {
+                "id": 1,
+                "word": "红色",
+                "pinyin": "hóng sè",
+                "translation": "Red"
+            },
+            {
+                "id": 2,
+                "word": "蓝色",
+                "pinyin": "lán sè",
+                "translation": "Blue"
+            },
+            {
+                "id": 3,
+                "word": "绿色",
+                "pinyin": "lǜ sè",
+                "translation": "Green"
+            },
+            {
+                "id": 4,
+                "word": "黄色",
+                "pinyin": "huáng sè",
+                "translation": "Yellow"
+            },
+            {
+                "id": 5,
+                "word": "黑色",
+                "pinyin": "hēi sè",
+                "translation": "Black"
+            },
+            {
+                "id": 6,
+                "word": "白色",
+                "pinyin": "bái sè",
+                "translation": "White"
+            },
+            {
+                "id": 7,
+                "word": "橙色",
+                "pinyin": "chéng sè",
+                "translation": "Orange"
+            }
+            ],
+            "quizzes": [
+            {
+                "id": 1,
+                "question": "How do you say 'Red' in Mandarin?",
+                "options": ["红色","蓝色"],
+                "answer": "红色"
+            },
+            {
+                "id": 2,
+                "question": "What is the translation of '白色'?",
+                "options": ["White","Black"],
+                "answer": "White"
+            },
+            {
+                "id": 3,
+                "question": "What is the pinyin for '绿色'?",
+                "options": ["lǜ sè","huáng sè"],
+                "answer": "lǜ sè"
+            },
+            {
+                "id": 4,
+                "question": "How do you say 'Blue' in Mandarin?",
+                "options": ["蓝色","绿色"],
+                "answer": "蓝色"
+            },
+            {
+                "id": 5,
+                "question": "What is the translation of '橙色'?",
+                "options": ["Orange","Red"],
+                "answer": "Orange"
+            }
+            ]
+        }
+    ]   
+}
+  

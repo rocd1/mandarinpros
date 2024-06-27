@@ -1,0 +1,59 @@
+{% extends 'mandarinapp/base.html' %}
+
+{% block title %}{{ lesson.category }} Flashcards and Quiz{% endblock %}
+
+{% block content %}
+<h1>{{ lesson.category }} Flashcards</h1><br>
+<div class="row">
+    {% for flashcard in flashcards %}
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm flashcard">
+            <div class="card-body text-center" style="background-color: aquamarine;">
+                <div class="flashcard-front">
+                    <h5>{{ flashcard.word }}</h5>
+                    <p>{{ flashcard.pinyin }}</p>
+                </div>
+                <div class="flashcard-back d-none">
+                    <p>{{ flashcard.translation }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<hr>
+
+<h1>{{ lesson.category }} Quiz</h1><br>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Submit Answers</button>
+</form>
+
+{% if results %}
+<div id="quizResults" class="mt-4">
+    {% for result in results %}
+    <div class="alert {% if result.correct %}alert-success{% else %}alert-danger{% endif %}">
+        <strong>Question:</strong> {{ result.question }}<br>
+        <strong>Selected Answer:</strong> {{ result.selected_answer }}<br>
+        {% if result.correct %}
+        <strong>Correct!</strong>
+        {% else %}
+        <strong>Wrong! The correct answer is: {{ result.correct_answer }}</strong>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.flashcard').forEach(card => {
+        card.addEventListener('click', () => {
+            card.querySelector('.flashcard-front').classList.toggle('d-none');
+            card.querySelector('.flashcard-back').classList.toggle('d-none');
+        });
+    });
+});
+</script>
+{% endblock %}

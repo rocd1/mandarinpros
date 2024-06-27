@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mandarin Lessons</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        .footer {
+            text-align: center; 
+            background: linear-gradient(to top, pink, aquamarine);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-12 sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    {% for category in categories %}
+                    <li><a href="{% url 'flashcards' category.id %}">{{ category.category }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-9 col-12 content">
+                <h1>Welcome to Mandarin Lessons</h1>
+                <p>Select a category from the sidebar to get started with flashcards and quizzes.</p>
+                <img src="https://picsum.photos/200" alt="Sample Photo" class="img-fluid" style="width: 350px; height: 300px;">
+            </div>
+        </div>
+    </div><br><br>
+    
+    <footer class="footer mt-auto py-3">
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2 text-center">
+                <blockquote class="blockquote">
+                    <p class="mb-0 text-dark">"Your limitation—it's only your imagination."</p>
+                    <footer class="blockquote-footer">Unknown</footer>
+                </blockquote>
+            </div>
+        </div>
+        
+        <div class="container">
+            <span class="text-muted"><a href="https://wa.me/qr/RMTIILK3PEM3O1">Click here for comments, contact, etc...</a></span>
+            <p class="text-center"><a class="navbar-brand" href="/combined_list">&copy;Roc2024</a></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
